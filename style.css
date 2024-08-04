@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    height: 60px;
+    width: 100%;
+    background-color:#172541;
+    color: #ffffff;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main{
+    height: 700px;
+    width: 100%;
+    background-image: url(Pic1.webp);
+    background-size: cover;
+}
+
+.main-1{
+    height: 110px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.288);
+   
+
+}
+.logo{
+    height: 60px;
+    width: 10%;
+    background-color: transparent;
+    position:absolute;
+    margin-top: 30px;
+    margin-left: 50px;
+
+}
+
+.items{
+    height: 60px;
+    width: 40%;
+    background-color: transparent;
+    position:absolute;
+    margin-top: 30px;
+    margin-left: 700px;
+    display: flex;
+    align-items: center;
+    
+}
+.box1{
+    color:#172541;
+    margin-left: 25px;
+    font-size: 18px;
+
+}
+
+.box1:hover {
+    text-decoration: underline;
+}
+
+.main-2{
+    height: 300px;
+    width: 42%;
+    background-color: rgba(255, 255, 255, 0.432);
+    margin: auto;
+ 
+    color: #172541;
+    
+    border: 30px solid rgba(255, 255, 255, 0.26);
+    text-align: center;
+    
+}
+
+.main-2 > P{
+    color: red;
+    font-size: 25px;  
+    font-weight: 600;
+
+}
+
+.main-2 > h3{
+    color: #172541;
+    font-size: 50px;
+  
+    
+}
+button{
+    background-color:#172541;
+    color: #ffffff;
+    height: 50px;
+    width: 110px;
+    font-size:15px;
+    font-weight: 600;
+}
+.Sec{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    margin-left: 200px;
+  
+}
+.Sec-1{
+    width: 40%;
+    height: 100%;
+    padding-right: 100px;
+    box-sizing: border-box;
+    padding-top: 40px;
+}
+.Sec-2{
+    width: 60%;
+    height: 100%;
+    display: flex;
+}
+
+
+.Sec-1>h1{
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.Sec-1>p{
+    font-family: "Merriweather", serif;
+    font-weight: 500;
+    font-style: italic;
+}
+.Sec-1>button{
+    width: 125px;
+    padding: 20px;
+    background-color: #172541;
+    color: #ffffff;
+    
+}
+.Sec-2-sub-1{
+    width: 40%;
+}
+.Sec-2-sub-2{
+    width: 60%;
+}
+.Sec-2-2{
+    padding: 50px 0px;
+}
+.Sec-2-3{
+    margin-top: 20px;
+}
+
+.Sec-3{
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+    box-sizing: border-box;
+    
+
+}
+.Sec-3 > p{
+    color: red;
+    font-size: 20px;
+
+}
+.Sec-3 > h1{
+    color: #172541;
+    font-weight: 900;
+
+}
+
+.Sec-4{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 40px;
+    gap:30px;
+    box-sizing: border-box;
+}
+
+.Sec-5{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    
+   
+}
+.Sec-5-1{
+    height: 100px;
+    width: 25%;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-left: 150px ;
+    margin-top: 90px;
+}
+
+.Sec-5-1 > p{
+    color: red;
+    font-size: 15px;
+   
+}
+
+.Sec-5-1 > h1{
+    color: #172541;
+    font-weight: 900;
+}
+
+.Sec-5-2{
+    margin-left: 120px ;
+    margin-top: 100px;
+
+}
